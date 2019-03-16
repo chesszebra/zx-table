@@ -1,0 +1,59 @@
+table {
+  border-collapse: collapse;
+}
+
+.zx-table {
+  margin-bottom: 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.zx-table td,
+.zx-table th {
+  border-top: 1px solid #e9ecef;
+  padding: .3rem;
+  vertical-align: middle;
+}
+
+.zx-table th {
+  border-top: 0;
+  font-weight: 400;
+  text-align: inherit;
+}
+
+.zx-table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.zx-table tbody th {
+  border-top: 1px solid #eceeef;
+}
+
+.zx-table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.zx-table-highlight tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.zx-table-bordered {
+  border: 1px solid #e9ecef;
+}
+
+.zx-table-bordered td,
+.zx-table-bordered th {
+  border: 1px solid #e9ecef;
+}
+
+.zx-table-responsive {
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+.zx-table-expanded tbody tr {
+  height: 50px;
+}

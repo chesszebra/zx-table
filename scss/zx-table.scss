@@ -1,0 +1,20 @@
+* {
+  @include zx-box-sizing(border-box);
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
